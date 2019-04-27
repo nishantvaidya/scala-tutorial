@@ -70,7 +70,7 @@
      - you can write object and class with same name and this is called companion.  obect person = {} and class person = {}
        var nishant = person // this is singleton instance of object but var vaidya = new Person() is instance of class. class instances are not equal as they are different instances.
      - companion can access each other private members.
-      - Scala application are object with main method . and can be write using extends App.
+      - Scala application are object with main method . and can be write using extends App. Object person extends App. This object can directly run in IDE as it automatically has main method for full code.
 ## Case Classes
 
   case class Person( name :String, age:Int)
