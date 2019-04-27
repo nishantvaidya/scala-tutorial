@@ -27,7 +27,7 @@
    - Type Inference
      -  What the compiler knows. compiler does able to figure out type.
      -  Compile is also able to figure type of function and variable but not in recursive function.
-   - Recursion
+   - Stack and Tail Recursion
      -  ?
    - Call BY Name or Value
      -  ?
