@@ -36,7 +36,8 @@
      - println(calledByName(Sytem.nanotime())// Inside function does not  evaluated instead function passed.
      - you can see difference if you print 2 times every function. value function will return same value each time but name does not
    - Default or Named Arguments.
-     -  ?
+     -  def add(a:Int, b: Int = 1<<1 is default value>>) : a+d ; // you can call add(5).
+     -  Default value should be in last arguments otherwise compile will not recognise else call with names add(a=5, b= 1);
 ## Case Classes
 
   case class Person( name :String, age:Int)
