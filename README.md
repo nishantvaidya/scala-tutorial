@@ -28,7 +28,8 @@
      -  What the compiler knows. compiler does able to figure out type.
      -  Compile is also able to figure type of function and variable but not in recursive function.
    - Stack and Tail Recursion
-     -  ?
+     -  def factorial(n:Int):Int = if (n <= 1) n else n *factorail(n-1)
+     -  Recurisve function use stack in scala
    - Call BY Name or Value
      -  def calledByValue(x:Long):Unit = {println(x)}
      -  def calledByName( x: =>Long):Unit = {println(x)}
