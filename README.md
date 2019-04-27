@@ -25,7 +25,10 @@
     - When you need loop use recursive function. This is important in functional programming. Recursive function always return type. You can user 'Unit' return type if nothing.
     - code block can also have auxillary function def aFunction(a:Int):Int= {def auxFunction(a:Int):Int =a auxFunction(a) }.Aux function can be use to define return type of parent function.
    - Type Inference
-     -  Functional is also expression.
+     -  What the compiler knows. compiler does able to figure out type.
+     -  Compile is also able to figure type of function and variable but not in recursive function.
+   -  Recursion
+     -  Compile is also able to
 ## Case Classes
 
   case class Person( name :String, age:Int)
