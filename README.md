@@ -1,5 +1,24 @@
 ### scala-tutorial
 ## Scala- basics
+ - Value , variable and Type
+   -  val x: Int = 42 //  val is immutable variable similar to final and can not be modified or reassigned.
+   -  var x:Int = 32  // var is mutable and can be re-assigned.
+   -  Type of val are optional and can be infered by compiler. compiler can detect automatically.
+   -  semicolon(;) is optional and end of expression. It should be discourage in scala.
+   -  Int, char, Boolean, String, Long,Short, Float,Double. Long should have suffix'L' and 'f' at end of float value.
+   -  var is side effect as assign expresssion will get evaulated.
+   -  Functioanl programming prefer val over var. Same for scala.
+ - Expressions
+   -  expression are evaulated to value. var x = 1+2 , var y += 3
+   -  {>>>} is right shift operator with zero padding.
+   -  Instruction is something you will tell to computer to do . Imperative programming like java, python use heavily.
+   -  expression compute to a value. everything in scala is expression. Look at if and else as it return value so it is expression in scala however but not in java.
+      var conditionvalue = if(condition) 3 else 5
+   -  NEVER USE WHILE LOOP in SCALA iNSTEAD USR RECURSION.WHILE LOOP USED iN IMPERATIVE PROGRAMMING LIKE JAVA. NEVER EVER USE LOOP.
+   -  Unit is equivale to void and it means nothing.
+   -  code blocks are special kind of expression. val codeBlock = {}. value of code block is last expression. all variables visibilty inside block only.
+   -  Instructions are excuted and expressions are evaluated.
+  - Function
 
 ## Case Classes
 
