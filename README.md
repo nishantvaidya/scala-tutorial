@@ -30,7 +30,11 @@
    - Stack and Tail Recursion
      -  ?
    - Call BY Name or Value
-     -  ?
+     -  def calledByValue(x:Long):Unit = {println(x)}
+     -  def calledByName( x: =>Long):Unit = {println(x)}
+     - println(calledByValue(Sytem.nanotime())// Inside function can be evaluated and value passed.
+     - println(calledByName(Sytem.nanotime())// Inside function does not  evaluated instead function passed.
+     - you can see difference if you print 2 times every function. value function will return same value each time but name does not
    - Default or Named Arguments.
      -  ?
 ## Case Classes
