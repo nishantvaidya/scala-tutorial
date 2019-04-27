@@ -19,7 +19,13 @@
    -  code blocks are special kind of expression. val codeBlock = {}. value of code block is last expression. all variables visibilty inside block only.
    -  Instructions are excuted and expressions are evaluated.
   - Function
-
+    -  def aFunction(a:String, b:String):String = a+ "" + b ; or {a+ "" +b}
+    - Functional is also expression.
+    - parameterless function can also be call without paranthesis.  var srt :String = "test".toString.
+    - When you need loop use recursive function. This is important in functional programming. Recursive function always return type. You can user 'Unit' return type if nothing.
+    - code block can also have auxillary function def aFunction(a:Int):Int= {def auxFunction(a:Int):Int =a auxFunction(a) }.Aux function can be use to define return type of parent function.
+   - Type Inference
+     -  Functional is also expression.
 ## Case Classes
 
   case class Person( name :String, age:Int)
