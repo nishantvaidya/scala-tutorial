@@ -44,10 +44,21 @@
      - you can see difference if you print 2 times every function. value function will return same value each time but name does not
    - Default or Named Arguments.
      -  def add(a:Int, b: Int = 1<<1 is default value>>) : a+d ; // you can call add(5).
-     -  Default value should be in last arguments otherwise compile will not recognise else call with names add(a=5, b= 1);
+     -  Default value should be in last arguments otherwise compile will not recognise else call with names add(a=5, b= 1).
+     
 ## Object oriented programming in scala
-   - Default or Named Arguments.
-     -  def add(a:Int, b: Int = 1<<1 is default value>>) : a+d ; // you can call add(5).
+   - Basic.
+     -  class Person  // person:Person = new Peson().
+     -  class Person(name:String, age:Int) // This is consructor.
+     - name and age are class parameters and not member variable so you can not access use "." like person.age
+     -  if need member variable declare inside else use val. class Person(name:String, val age:Int)
+     -  if you have parameter with same name then use this.name to access class parameter name.
+     - overloading is method with same name but different signature( default parameter or different return type but not return type only)
+     - constructor is declared using def this(name:String) = this(name,0)
+     - constructor can only call other constructor and nothing else.  def this(): this("nishant")
+     - This problem can be solved through passing default value in class parameter so no need of auxillary this constructor.
+  - Syntatic Sugar.
+     -  class Person  // person:Person = new Peson().
 
 ## Case Classes
 
