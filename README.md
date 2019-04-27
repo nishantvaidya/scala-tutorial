@@ -57,8 +57,10 @@
      - constructor is declared using def this(name:String) = this(name,0)
      - constructor can only call other constructor and nothing else.  def this(): this("nishant")
      - This problem can be solved through passing default value in class parameter so no need of auxillary this constructor.
-  - Syntatic Sugar.
-     -  class Person  // person:Person = new Peson().
+  - Syntatic Sugar Method notation.
+     -  a.add(b) can also be called as println(a add b) and this is called infix style and work with single parameter. This is natural language way calling method.
+     -  you can use + , * or any other mathmetical operator as method name . you can use a.+(b) or printl(a + b). All operator are method in scala.
+     - prefix notation is all about unary operator. var x = -1 is equivalent var x = 1.unary_-. unary_ prefix works with only + ,-, !,~
 
 ## Case Classes
 
