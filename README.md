@@ -29,7 +29,10 @@
      -  Compile is also able to figure type of function and variable but not in recursive function.
    - Stack and Tail Recursion
      -  def factorial(n:Int):Int = if (n <= 1) n else n *factorail(n-1)
-     -  Recurisve function use stack in scala
+     -  Recurisve function use call stack in scala or stack frame for execution
+     -  if you call with big number then it will throw stack over flow error, we have to write differently
+     -   def factorial(n:Int):Int = {def factHelper(x:Int, accumulator:Int):Int = if(n==1) n else factHelper(x-1,x*accumulator) facthelper(n,1)}
+     - So this problem is solved using auxillary function and accumulator
    - Call BY Name or Value
      -  def calledByValue(x:Long):Unit = {println(x)}
      -  def calledByName( x: =>Long):Unit = {println(x)}
