@@ -22,10 +22,10 @@
           - case classes have extractor pattern. it can be used for pattern matching.
           - case Object have same property similar to case classes except they do not have companion object.
   ## Exceptions :
-   -  Everything in scalas is exception except  try , catch and finally.
-      val excption = throw new NullPointerException()
-   -  
-      def getInt(withExceptions:Boolean):Int = {
+   -  Everything in scalas is exception except  try , catch and finally
+   val excption = throw new NullPointerException()
+   -  def getInt(withExceptions:Boolean):Int = 
+   {
        if(withExceptions) = throw new Exception("exception") else 42 
        try{
         val value = getInt(true);
