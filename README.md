@@ -1,4 +1,5 @@
-# scala-tutorial
+### scala-tutorial
+## Scala- basics
 
 ## Case Classes
 
