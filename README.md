@@ -64,7 +64,13 @@
      - post prefix notation a.toString equivalent a toString . Post prefix work only for method without parameter.
      - apply method can be declared in class and you can call using classname() and this is equivalent to classname.apply()
    - Scala Objects.
-     -  ??.
+     -  scala object are different concepts. class does not have class level functionality.
+     -  object Person{val EYES=2} . object does not recieve parameters.
+     -  scala object are singleton and it is own type so equal always return true.
+     - you can write object and class with same name and this is called companion.  obect person = {} and class person = {}
+       var nishant = person // this is singleton instance of object but var vaidya = new Person() is instance of class. class instances are not equal as they are different instances.
+      - Scala application are object with main method . and can be write using extends App.
+      -
 ## Case Classes
 
   case class Person( name :String, age:Int)
