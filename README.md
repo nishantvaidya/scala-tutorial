@@ -38,6 +38,10 @@
    - Default or Named Arguments.
      -  def add(a:Int, b: Int = 1<<1 is default value>>) : a+d ; // you can call add(5).
      -  Default value should be in last arguments otherwise compile will not recognise else call with names add(a=5, b= 1);
+## Object oriented programming in scala
+   - Default or Named Arguments.
+     -  def add(a:Int, b: Int = 1<<1 is default value>>) : a+d ; // you can call add(5).
+
 ## Case Classes
 
   case class Person( name :String, age:Int)
