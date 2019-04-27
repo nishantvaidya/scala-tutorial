@@ -27,8 +27,8 @@
    - Type Inference
      -  What the compiler knows. compiler does able to figure out type.
      -  Compile is also able to figure type of function and variable but not in recursive function.
-   -  Recursion
-     -  Compile is also able to
+   - Recursion
+     -  What
 ## Case Classes
 
   case class Person( name :String, age:Int)
