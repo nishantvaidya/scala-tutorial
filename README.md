@@ -61,7 +61,8 @@
      -  a.add(b) can also be called as println(a add b) and this is called infix style and work with single parameter. This is natural language way calling method.
      -  you can use + , * or any other mathmetical operator as method name . you can use a.+(b) or printl(a + b). All operator are method in scala.
      - prefix notation is all about unary operator. var x = -1 is equivalent var x = 1.unary_-. unary_ prefix works with only + ,-, !,~
-
+   - Scala Objects.
+     -  ??.
 ## Case Classes
 
   case class Person( name :String, age:Int)
