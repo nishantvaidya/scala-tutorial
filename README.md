@@ -41,3 +41,16 @@
      calss myException extends Exception // can have variable ,method etc.
      val exception = new myException
      throw new exception
+## Packaging and Imports
+- Package is not an expression.
+- Pacages members are accessible by their simple name.
+- packages object is created to declare constant out side all the classes and accessible to all classes.There can be only one package object per packages.
+ package object <package_name> {
+  def sayHello():Unit = println("hello")
+  val SPEED_PER_KM : Int = 50
+- import all classes in pacakge: import com.test._ (Underscore is used to import all classes)
+- You can import a set of class using import com.test.{test1, test2, test3 => hello3 // test 3 refer with hello3 classs. Use if have class name conflict }
+- if both classess in import same then comiple take first import as class. Use fullyqualified class other wise
+- import by other name import java.sql.{Date => sqlDate}
+ } 
+ - default imports are automatically imported package. java.lang -string, object, exception. Scala package - Int,Nothing,Function , scala.predef - println, ???
