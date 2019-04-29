@@ -125,3 +125,13 @@
 - import by other name import java.sql.{Date => sqlDate}
  } 
  - default imports are automatically imported package. java.lang -string, object, exception. Scala package - Int,Nothing,Function , scala.predef - println, ???
+## Functional programming
+-All functions are objects. you can write upto 22 Functions var add = Function1[Int,Int,Int]{overide def apply(a:Int,B:Int):Int = a+b}
+- Higher order function take either function as parameter or return function as return type.
+- Scala has function traits upto 22.
+- Scala also has syntatic sugar for function type.
+- Anonymous function / Lambda function  val dobule = (x:Int) => x*2.
+- map, filtermap , filter are higher order functions as these take function as input.
+-
+
+
